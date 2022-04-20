@@ -6,7 +6,7 @@ The network serves as the function approximator, and after training will give th
 
 I trained the network on [Burger's equation](https://en.wikipedia.org/wiki/Burgers%27_equation) over 25000 iterations and plotted the solution in space and time.  The network finished with a loss of 0.0011 after training according to the loss function.
 
-In addition, I plotted the solution at every 100 iterations of training and made an animation of the solution converging over these iterations.  It is plotted in space from [-1,1] and time from [0,1].  The animation really gives intuition on how the model learns the solution.  The animation shows the model first learns the initial condition, then starts moving through time and finds the solution passed the initial condition.
+In addition, I plotted the solution at every 100 iterations of training and made an animation of the solution converging over these iterations.  It is plotted in space from [-1,1] and time from [0,1].  The animation really gives intuition on how the model learns the solution.  The animation shows the model first learns the initial condition, then starts moving through time and finds the solution past the initial condition.
 
 Here is the animation!
 
