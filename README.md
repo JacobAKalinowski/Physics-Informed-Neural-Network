@@ -11,3 +11,9 @@ In addition, I plotted the solution at every 100 iterations of training and made
 Here is the animation!
 
 ![PINNConvergence](https://user-images.githubusercontent.com/67863882/164291260-53e2b874-b626-454c-94bd-14d58dbed7ae.gif)
+
+# Code
+
+The network itself is very simple.  It takes in the number of hidden layers and the size of each of these layers.  The first layer has an input dimension of 2 for space and time and the last layer has output dimension of 1, which is the solution of the PDE at a given (x,t).
+
+```python:PINN.py [14-31]```
