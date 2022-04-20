@@ -1,6 +1,6 @@
 # Physics-Informed-Neural-Network
 
-Physics Informed Neural Network (PINN) is a method to solve partial differential equations using neural networks developed by Maziar Raissi, Paris Perdikaris and George Em Karniadakis.  The method utilizes automatic differentiation in order to compute partial derivatives in the PDE.
+Physics Informed Neural Network ([PINN](https://en.wikipedia.org/wiki/Physics-informed_neural_networks)) is a method to solve partial differential equations using neural networks developed by Maziar Raissi, Paris Perdikaris and George Em Karniadakis.  The method utilizes automatic differentiation in order to compute partial derivatives in the PDE.
 
 The network serves as the function approximator, and after training will give the solution for the PDE.  The loss function is a combination of the MSE for the PDE given initial conditions and the MSE for the network itself.
 
